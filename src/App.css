@@ -1,0 +1,53 @@
+#root {
+  height: 100vh;
+}
+.homeslider {
+  height: 80vh;
+}
+
+.footer {
+  height: 80px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-left {
+  background-color: #121618;
+  padding: 10px;
+  height: 80px;
+}
+.footer-right {
+  background-color: #fac564;
+  height: 80px;
+}
+
+.fas {
+  color: #fac564;
+  font-size: 20px;
+}
+
+.footer-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.footer-text-muted {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+}
+
+.fab {
+  color: #121618;
+  font-size: 32px;
+}
+
+.form-label {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.forgotPass {
+  font-size: 16px;
+  font-weight: 600;
+}
