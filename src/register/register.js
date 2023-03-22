@@ -75,9 +75,9 @@ function Register() {
                 email: email,
                 password: password,
                 address: address,
-                city: city,
-                state: state,
-                zip: zip
+                // city: city,
+                // state: state,
+                // zip: zip
             }
             let registerRequest = await fetch(url, {
                 method: "POST",
@@ -143,7 +143,7 @@ function Register() {
                         <Form.Control value={address} onChange={(e) => { SetAddress(e.target.value) }} placeholder="Address Line 1" required />
                     </Form.Group>
 
-                    <Form.Row>
+                    {/* <Form.Row>
                         <Form.Group as={Col} controlId="city">
                             <Form.Label>City</Form.Label>
                             <Form.Control value={city} onChange={(e) => { SetCity(e.target.value) }} type="text" required />
@@ -162,7 +162,7 @@ function Register() {
                             <Form.Label>Zip</Form.Label>
                             <Form.Control value={zip} onChange={(e) => { SetZip(e.target.value) }} required />
                         </Form.Group>
-                    </Form.Row>
+                    </Form.Row> */}
                     <div className="row justify-content-center">
                         <Button variant="primary" type="submit" style={{ width: "75%" }} onClick={(e) => { handleRegisterationSubmission(e) }}>
                             Register </Button>
